@@ -1,0 +1,33 @@
+# Simple Study Planner
+
+tasks = []
+
+def show_tasks():
+    if len(tasks) == 0:
+        print("No tasks yet.")
+    else:
+        print("\nYour Tasks:")
+        for i, task in enumerate(tasks):
+            print(f"{i+1}. {task}")
+
+while True:
+    print("\n1. Add Task")
+    print("2. View Tasks")
+    print("3. Exit")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        task = input("Enter task: ")
+        tasks.append(task)
+        print("Task added!")
+
+    elif choice == "2":
+        show_tasks()
+
+    elif choice == "3":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice")
