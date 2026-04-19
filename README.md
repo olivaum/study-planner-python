@@ -8,9 +8,6 @@ This is a simple Python project to help students manage their study tasks.
 - View tasks
 - Simple command-line interface
 
-## Why I made this
-I am learning Python and preparing for my first hackathon 🚀
-
 ## How to run
 1. Download the file
 2. Run main.py using Python
